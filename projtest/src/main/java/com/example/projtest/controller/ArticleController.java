@@ -5,7 +5,6 @@ import com.example.projtest.dto.CommentDto;
 import com.example.projtest.entity.Article;
 import com.example.projtest.repository.ArticleRepository;
 import com.example.projtest.service.CommentService;
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import javax.swing.text.html.Option;
 import java.util.List;
 
 @Slf4j

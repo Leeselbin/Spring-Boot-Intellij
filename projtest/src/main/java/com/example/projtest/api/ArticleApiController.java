@@ -2,11 +2,9 @@ package com.example.projtest.api;
 
 import com.example.projtest.dto.ArticleForm;
 import com.example.projtest.entity.Article;
-import com.example.projtest.repository.ArticleRepository;
 import com.example.projtest.service.ArticleService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.support.Repositories;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
