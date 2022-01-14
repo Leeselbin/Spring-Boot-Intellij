@@ -1,4 +1,4 @@
-package com.example.projtest.objectmapper;
+package com.example.projtest.test.objectmapper;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

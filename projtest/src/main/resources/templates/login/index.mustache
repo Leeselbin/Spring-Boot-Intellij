@@ -1,0 +1,15 @@
+{{>layouts/header}}
+
+<h1> 메인 페이지 </h1>
+<hr>
+{{^username}}
+    <a href="/user/login">로그인</a>
+    <a href="/singup">회원가입</a>
+{{/username}}
+{{#username}}
+    <a href="/user/logout">로그아웃</a>
+{{/username}}
+
+
+<a href="/articles"> 글목록 </a>
+{{>layouts/footer}}

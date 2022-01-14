@@ -1,5 +1,6 @@
 package com.example.projtest.objectmapper;
 
+import com.example.projtest.test.objectmapper.Burger;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -7,7 +8,6 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.junit.jupiter.api.Test;
 
-import javax.management.ObjectName;
 import java.util.Arrays;
 import java.util.List;
 

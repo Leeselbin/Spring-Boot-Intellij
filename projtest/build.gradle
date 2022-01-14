@@ -22,11 +22,16 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-mustache'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	//웹소캣
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+
+
 	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	//마리아디비
 	implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.7.3'
 	implementation group: 'org.javassist', name: 'javassist', version: '3.15.0-GA'
+
 
 	//spring security 사용하기 위한
 	implementation 'org.springframework.boot:spring-boot-starter-security'
